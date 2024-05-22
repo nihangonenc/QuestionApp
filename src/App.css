@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.main{
+   margin: auto;
+   height: 100vh;
+}
+body {
+    background-image: linear-gradient(to top, var(--main-color),rgb(235,210,230));
+    color:  var(--second-color);
+    font-family: 'Playfair Display';
+    font-size: 62.5%;
+}

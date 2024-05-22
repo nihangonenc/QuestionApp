@@ -1,0 +1,28 @@
+.start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+    margin: auto 5%;
+    gap: 3rem;
+    height: 80%;
+}
+.start p {
+    margin-left: 15rem;
+    margin-right: 15rem;
+    text-align: center;
+} 
+#start {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    border-style: none;
+    cursor: pointer;
+    color: var(--second-color);
+}
+#start:hover {
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
